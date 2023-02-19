@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
+
 public class AnswerOption
 {
     public string answerText;
@@ -26,6 +27,8 @@ public class QuizManager : MonoBehaviour
     public Button option2Button;
     public Button option3Button;
     public Button option4Button;
+    public Text errorMessageText;
+
 
     private int currentQuestionIndex = 0;
 
@@ -64,6 +67,11 @@ public class QuizManager : MonoBehaviour
             {
                 Debug.LogError("O valor do índice da resposta não está no formato correto: " + values[5]);
             }
+
+            option1Button.onClick.AddListener(() => OnAnswerOptionClicked(0));
+            option2Button.onClick.AddListener(() => OnAnswerOptionClicked(1));
+            option3Button.onClick.AddListener(() => OnAnswerOptionClicked(2));
+            option4Button.onClick.AddListener(() => OnAnswerOptionClicked(3));
 
             answerOptions[answerIndex].isCorrect = true;
 
@@ -120,9 +128,12 @@ public class QuizManager : MonoBehaviour
             this.answerOptions = answerOptions;
         }
     }
-    public void OnOption1ButtonClicked()
+
+    public Text messageText; // reference to the text component for displaying messages
+
+    public void OnAnswerOptionClicked(int index)
     {
-        AnswerOption selectedAnswer = questions[currentQuestionIndex].answerOptions[0];
+        AnswerOption selectedAnswer = questions[currentQuestionIndex].answerOptions[index];
         bool isCorrect = CheckAnswer(selectedAnswer, questions[currentQuestionIndex]);
         if (isCorrect)
         {
@@ -132,51 +143,20 @@ public class QuizManager : MonoBehaviour
         else
         {
             // Resposta incorreta
+            StartCoroutine(ShowErrorMessage());
         }
     }
 
-    public void OnOption2ButtonClicked()
+    IEnumerator ShowErrorMessage()
     {
-        AnswerOption selectedAnswer = questions[currentQuestionIndex].answerOptions[1];
-        bool isCorrect = CheckAnswer(selectedAnswer, questions[currentQuestionIndex]);
-        if (isCorrect)
-        {
-            // Resposta correta
-            NextQuestion();
-        }
-        else
-        {
-            // Resposta incorreta
-        }
+        // Mostra a mensagem de erro
+        errorMessageText.gameObject.SetActive(true);
+
+        // Espera 2 segundos
+        yield return new WaitForSeconds(2);
+
+        // Esconde a mensagem de erro
+        errorMessageText.gameObject.SetActive(false);
     }
 
-    public void OnOption3ButtonClicked()
-    {
-        AnswerOption selectedAnswer = questions[currentQuestionIndex].answerOptions[2];
-        bool isCorrect = CheckAnswer(selectedAnswer, questions[currentQuestionIndex]);
-        if (isCorrect)
-        {
-            // Resposta correta
-            NextQuestion();
-        }
-        else
-        {
-            // Resposta incorreta
-        }
-    }
-
-    public void OnOption4ButtonClicked()
-    {
-        AnswerOption selectedAnswer = questions[currentQuestionIndex].answerOptions[3];
-        bool isCorrect = CheckAnswer(selectedAnswer, questions[currentQuestionIndex]);
-        if (isCorrect)
-        {
-            // Resposta correta
-            NextQuestion();
-        }
-        else
-        {
-            // Resposta incorreta
-        }
-    }
 }
