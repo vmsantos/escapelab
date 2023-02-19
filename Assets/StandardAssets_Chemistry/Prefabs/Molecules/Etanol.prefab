@@ -39,7 +39,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4038063969385568}
   m_Layer: 0
-  m_Name: Ethanol
+  m_Name: Etanol
   m_TagString: Molecule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

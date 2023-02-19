@@ -715,6 +715,110 @@ Prefab:
       propertyPath: m_Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114385215772288320, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e3ed8cb57face874db16d1ab8350e9f1,
+        type: 3}
+    - target: {fileID: 114385215772288320, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114385215772288320, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114385215772288320, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538334269756196, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fcaa570fead410e429e64cb3b3a39e3d,
+        type: 3}
+    - target: {fileID: 114538334269756196, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538334269756196, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538334269756196, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538334269756196, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114829411635275902, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114829411635275902, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114829411635275902, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114829411635275902, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f943f4dd4171bea40a015e5defb94a81,
+        type: 3}
+    - target: {fileID: 114829411635275902, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Text
+      value: LOADING...
+      objectReference: {fileID: 0}
+    - target: {fileID: 114241278503597926, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 090d82b43a447e247bceeaa94bd7fcb4,
+        type: 3}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 134d803fbe5daad4898013368569a93b, type: 2}
   m_IsPrefabParent: 0
@@ -1527,6 +1631,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 353539952}
+--- !u!1 &391413477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 391413478}
+  - component: {fileID: 391413480}
+  - component: {fileID: 391413479}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &391413478
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 391413477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1526449312}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.737366}
+  m_SizeDelta: {x: 500, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &391413479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 391413477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a30f933bed2f6504bae572c0ef6aaeb7, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: LOADING...
+--- !u!222 &391413480
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 391413477}
 --- !u!1 &393138121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2330,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[0].name
-      value: Water
+      value: "\xC1gua"
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -2162,7 +2340,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[1].name
-      value: Sodium Chloride
+      value: "Cloreto de S\xF3dio"
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -2172,7 +2350,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[2].name
-      value: Methane
+      value: Metano
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -2187,7 +2365,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[3].name
-      value: Ethanol
+      value: Etanol
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -2197,7 +2375,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[4].name
-      value: Methanole
+      value: Metanol
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -2207,7 +2385,7 @@ Prefab:
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
       propertyPath: availableMolecules.Array.data[5].name
-      value: Methanamine
+      value: Metanamina
       objectReference: {fileID: 0}
     - target: {fileID: 114887907869304822, guid: 167bfa52f8a813942a8dc5caaff4122b,
         type: 2}
@@ -3864,6 +4042,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea642b2ef1fd56c4396cef9316ac09d4, type: 2}
   m_IsPrefabParent: 0
+--- !u!224 &1526449312 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224803102802180380, guid: 134d803fbe5daad4898013368569a93b,
+    type: 2}
+  m_PrefabInternal: {fileID: 152527203}
 --- !u!1001 &1558355468
 Prefab:
   m_ObjectHideFlags: 0
