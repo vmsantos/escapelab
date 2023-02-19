@@ -41,3 +41,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DesafioChemset.unity
+    guid: c91df8ff7e6fb5445b95ec18907a9633

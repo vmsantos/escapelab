@@ -13,7 +13,7 @@ public class ObjectInteraction : MonoBehaviour
     [SerializeField] private Material defaultMat; //used to store the default and the outiline materials.
     [SerializeField] private Material outlinedMat;
 
-    private enum Interactables {naming, construction,exit}
+    private enum Interactables {naming, construction, exit, chemset, tv, tabela}
     [SerializeField] private Interactables interactable;
 
     public SceneLoader sceneLoader;
@@ -54,6 +54,27 @@ public class ObjectInteraction : MonoBehaviour
             cursor.UnLockCursor();
             GoedleAnalytics.instance.track("choose.quiz",sceneToLoad);
             //MoleculeManager.instance.buildStrategyNamingQueue(MoleculeManager.instance._naming_strategy);
+            sceneLoader.LoadScene(sceneToLoad);
+        }
+        else if (interactable == Interactables.chemset)
+        {
+            GameManager.currentLevel = GameManager.Levels.desafiochemset;
+            cursor.UnLockCursor();
+            GoedleAnalytics.instance.track("choose.quiz", sceneToLoad);
+            sceneLoader.LoadScene(sceneToLoad);
+        }
+        else if (interactable == Interactables.tv)
+        {
+            GameManager.currentLevel = GameManager.Levels.desafiotv;
+            cursor.UnLockCursor();
+            GoedleAnalytics.instance.track("choose.quiz", sceneToLoad);
+            sceneLoader.LoadScene(sceneToLoad);
+        }
+        else if (interactable == Interactables.tabela)
+        {
+            GameManager.currentLevel = GameManager.Levels.desafiotabela;
+            cursor.UnLockCursor();
+            GoedleAnalytics.instance.track("choose.quiz", sceneToLoad);
             sceneLoader.LoadScene(sceneToLoad);
         }
         else if (interactable == Interactables.construction)

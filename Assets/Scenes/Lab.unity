@@ -37628,6 +37628,7 @@ GameObject:
   - component: {fileID: 1308381395}
   - component: {fileID: 1308381398}
   - component: {fileID: 1308381397}
+  - component: {fileID: 1308381399}
   - component: {fileID: 1308381396}
   m_Layer: 8
   m_Name: periodic_table
@@ -37650,21 +37651,18 @@ Transform:
   m_Father: {fileID: 1130940090}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!64 &1308381396
-MeshCollider:
+--- !u!65 &1308381396
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 64238328654048382, guid: a0884d4b3a9654d4ab69a2ed17ba6866,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1308381394}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 3d36d220e0bbf54468aa1550fdca5609, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.3823183, y: 1.1118746, z: 2.2123563}
+  m_Center: {x: 0.17615917, y: -0.05593729, z: -0.08235085}
 --- !u!23 &1308381397
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37708,6 +37706,27 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1308381394}
   m_Mesh: {fileID: 4300000, guid: 3d36d220e0bbf54468aa1550fdca5609, type: 3}
+--- !u!114 &1308381399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308381394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd2f0278cc4f9743b689e41b0994a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionCanvas: {fileID: 1048944797}
+  crosshair: {fileID: 254592000}
+  defaultMat: {fileID: 2100000, guid: 8eea9aa8e654fec4f8827d1cd8ae3f74, type: 2}
+  outlinedMat: {fileID: 2100000, guid: 8eea9aa8e654fec4f8827d1cd8ae3f74, type: 2}
+  interactable: 0
+  sceneLoader: {fileID: 227587222}
+  cursor: {fileID: 806409091}
+  clip: {fileID: 8300000, guid: c37b83504dddd5540b73fb6622b00532, type: 3}
+  sceneToLoad: desafiotabela
+  scoreManager: {fileID: 1872727004}
 --- !u!1 &1311603569
 GameObject:
   m_ObjectHideFlags: 0
@@ -46741,8 +46760,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.32207736, y: 0.3234346, z: 0.4954103}
-  m_Center: {x: 0.0066965753, y: 0.049117208, z: 0.13126026}
+  m_Size: {x: 0.6632359, y: 0.42796913, z: 0.5545447}
+  m_Center: {x: -0.041055005, y: 0.10138447, z: 0.16082758}
 --- !u!1 &1621504483
 GameObject:
   m_ObjectHideFlags: 0
@@ -48464,6 +48483,8 @@ GameObject:
   - component: {fileID: 1705196451}
   - component: {fileID: 1705196453}
   - component: {fileID: 1705196452}
+  - component: {fileID: 1705196454}
+  - component: {fileID: 1705196455}
   m_Layer: 8
   m_Name: TV
   m_TagString: Untagged
@@ -48529,6 +48550,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705196450}
   m_Mesh: {fileID: 4300002, guid: eba08e9684fc7b24587a961b184d541b, type: 3}
+--- !u!114 &1705196454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705196450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd2f0278cc4f9743b689e41b0994a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionCanvas: {fileID: 1048944797}
+  crosshair: {fileID: 254592000}
+  defaultMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
+  outlinedMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
+  interactable: 0
+  sceneLoader: {fileID: 227587222}
+  cursor: {fileID: 806409091}
+  clip: {fileID: 8300000, guid: bff0dbfb892144e47a470510a8c243ed, type: 3}
+  sceneToLoad: desafiotv
+  scoreManager: {fileID: 1872727004}
+--- !u!65 &1705196455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705196450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7631734, y: 1.0875068, z: 1.1447743}
+  m_Center: {x: 0.37375796, y: -0.1603471, z: -0.09987044}
 --- !u!1 &1706823685
 GameObject:
   m_ObjectHideFlags: 0
@@ -58999,8 +59053,29 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.68716973, y: 0.8429467, z: 1.0739099}
-  m_Center: {x: 0.36912003, y: 0.4211419, z: -0.25}
+  m_Size: {x: 0.895925, y: 0.8429467, z: 1.0739099}
+  m_Center: {x: 0.47349766, y: 0.4211419, z: -0.25}
+--- !u!114 &2084298455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2084298453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd2f0278cc4f9743b689e41b0994a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionCanvas: {fileID: 1048944797}
+  crosshair: {fileID: 254592000}
+  defaultMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
+  outlinedMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
+  interactable: 3
+  sceneLoader: {fileID: 227587222}
+  cursor: {fileID: 806409091}
+  clip: {fileID: 0}
+  sceneToLoad: DesafioChemset
+  scoreManager: {fileID: 1872727004}
 --- !u!1 &2088536386
 GameObject:
   m_ObjectHideFlags: 0
