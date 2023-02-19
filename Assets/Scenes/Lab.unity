@@ -37741,7 +37741,7 @@ MonoBehaviour:
   sceneLoader: {fileID: 227587222}
   cursor: {fileID: 806409091}
   clip: {fileID: 8300000, guid: c37b83504dddd5540b73fb6622b00532, type: 3}
-  sceneToLoad: desafiotabela
+  sceneToLoad: Dica1
   scoreManager: {fileID: 1872727004}
 --- !u!1 &1311603569
 GameObject:
