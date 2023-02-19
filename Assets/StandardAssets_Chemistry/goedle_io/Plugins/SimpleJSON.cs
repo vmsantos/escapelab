@@ -136,7 +136,7 @@ namespace SimpleJSON
         public struct Enumerator
         {
             private enum Type { None, Array, Object }
-            private Type type;
+            private readonly Type type;
             private Dictionary<string, JSONNode>.Enumerator m_Object;
             private List<JSONNode>.Enumerator m_Array;
             public bool IsValid { get { return type != Type.None; } }
