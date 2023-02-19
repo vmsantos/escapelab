@@ -8,8 +8,7 @@ public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
 
     public enum Levels {moleculeNaming, moleculeConstruction,lab,menu, desafiochemset,
-        desafiotv,
-        desafiotabela
+                desafiotabela, minigameacidos
     }
     public static Levels currentLevel;
 

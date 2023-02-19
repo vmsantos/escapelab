@@ -16117,7 +16117,8 @@ Prefab:
       propertyPath: m_Volume
       value: 0.3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 82480303932076466, guid: d96e2996417f73d43b58f80956bd1927, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d96e2996417f73d43b58f80956bd1927, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &596795291
@@ -48580,11 +48581,11 @@ MonoBehaviour:
   crosshair: {fileID: 254592000}
   defaultMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
   outlinedMat: {fileID: 2100000, guid: 3209a8203d254a44fb6e2f5cce8e28df, type: 2}
-  interactable: 0
+  interactable: 4
   sceneLoader: {fileID: 227587222}
   cursor: {fileID: 806409091}
   clip: {fileID: 8300000, guid: bff0dbfb892144e47a470510a8c243ed, type: 3}
-  sceneToLoad: desafiotv
+  sceneToLoad: MiniGameAcidos
   scoreManager: {fileID: 1872727004}
 --- !u!65 &1705196455
 BoxCollider:
@@ -53198,10 +53199,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1754011714}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: eba08e9684fc7b24587a961b184d541b, type: 3}

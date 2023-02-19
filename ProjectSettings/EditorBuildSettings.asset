@@ -44,3 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DesafioChemset.unity
     guid: c91df8ff7e6fb5445b95ec18907a9633
+  - enabled: 1
+    path: Assets/Scenes/MiniGameAcidos.unity
+    guid: 42bc9ccba3005014894fb685567088f3
