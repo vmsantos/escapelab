@@ -37,7 +37,7 @@ public class PlayerMessagesController : MonoBehaviour
             if (GameManager.namedMolecules == 1)
             {
                 EnableScientistPanel();
-                text.text = "Good job, you have just completed your first formula naming quiz.\nKeep going!!";
+                text.text = "BOM TRABALHO! Você completou a primeira fórmula corretamente!\nVamos Lá!";
                 animator.enabled = true;
                 StartCoroutine(WaitForSec());
             }

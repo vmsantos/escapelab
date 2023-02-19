@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bd8d00bcf8747e4989dcbe0a54c14ed, type: 3}
-  m_Name: Number6
+  m_Name: K
   m_EditorClassIdentifier: 
-  name: Number6
+  name: F
   icon: {fileID: 21300000, guid: 7a4da745f1dcc0c4388ed87bbb390453, type: 3}
-  tag: Ni
+  tag: F

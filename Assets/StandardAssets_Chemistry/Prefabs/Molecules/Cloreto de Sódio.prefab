@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4640135410350032}
   m_Layer: 0
-  m_Name: Sodium Chloride
+  m_Name: "Cloreto de S\xF3dio"
   m_TagString: Molecule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4507688065481746}
   m_Layer: 0
-  m_Name: Methane
+  m_Name: Metano
   m_TagString: Molecule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

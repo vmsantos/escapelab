@@ -5,11 +5,13 @@ using System.Collections;
 
 public class ImageController : MonoBehaviour {
 
+    public AudioSource audioSource;
     public Image[] images; // Array que armazena as imagens
     public float duration = 5.0f; // Duração de cada imagem na tela
     private int index = 0; // Índice da imagem atual
 
     IEnumerator Start() {
+        audioSource.Play();
         while (true) {
             // Define a imagem atual e espera pela duração
             images[index].gameObject.SetActive(true);
@@ -32,5 +34,7 @@ public class ImageController : MonoBehaviour {
                 index = 0;
             }
         }
+        audioSource.Stop();
+
     }
 }
