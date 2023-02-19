@@ -67,6 +67,7 @@ public class ObjectInteraction : MonoBehaviour
         {
             GameManager.currentLevel = GameManager.Levels.minigameacidos;
             cursor.UnLockCursor();
+            GoedleAnalytics.instance.track("choose.quiz", sceneToLoad);
             sceneLoader.LoadScene(sceneToLoad);
         }
         else if (interactable == Interactables.tabela)

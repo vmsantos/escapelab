@@ -14572,7 +14572,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press " E " to interact
+  m_Text: Pressione "E" para interagir.
 --- !u!222 &531500780
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38471,7 +38471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press " E " to exit. All progress will be lost!
+  m_Text: "Pressione \"E\" para sair. Todo progresso ser\xE1 perdido!!!"
 --- !u!222 &1339081262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48791,6 +48791,11 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139544865023748, guid: 134d803fbe5daad4898013368569a93b,
+        type: 2}
+      propertyPath: m_Text
+      value: Carregando...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 134d803fbe5daad4898013368569a93b, type: 2}
