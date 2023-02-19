@@ -33571,7 +33571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Perform an exit/logout through the door.\n\t\t\t\t\t\t\t\t\t\t\t--->"
+  m_Text: "Eu devo escrever alguma coisa aqui\t\t\t\t\t--->"
 --- !u!222 &1296150665
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35648,7 +35648,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Perform an exit/logout through the door.
+  m_Text: 'Eu devo escrever alguma coisa aqui
 
     <---'
 --- !u!222 &1367370021
