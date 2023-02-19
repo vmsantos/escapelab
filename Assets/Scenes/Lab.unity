@@ -37741,7 +37741,7 @@ MonoBehaviour:
   sceneLoader: {fileID: 227587222}
   cursor: {fileID: 806409091}
   clip: {fileID: 8300000, guid: c37b83504dddd5540b73fb6622b00532, type: 3}
-  sceneToLoad: desafiotabela
+  sceneToLoad: Dica1
   scoreManager: {fileID: 1872727004}
 --- !u!1 &1311603569
 GameObject:
@@ -38471,7 +38471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pressione \"E\" para sair. Todo progresso ser\xE1 perdido!!!"
+  m_Text: 'Pressione "E" para sair. '
 --- !u!222 &1339081262
 CanvasRenderer:
   m_ObjectHideFlags: 0
