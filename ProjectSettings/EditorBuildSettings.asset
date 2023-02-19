@@ -29,13 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab.unity
     guid: efc9148cad4e3404cb61363cc5fec72b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MoleculeNaming.unity
     guid: 3cbd064172443e14f95d4e8caf81d944
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MoleculeConstruction.unity
     guid: 5a731f8f2e5156d4294bf8b5e0c44270
   - enabled: 0
