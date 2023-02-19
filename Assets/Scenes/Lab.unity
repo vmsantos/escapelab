@@ -38471,7 +38471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pressione \"E\" para sair. Todo progresso ser\xE1 perdido!!!"
+  m_Text: 'Pressione "E" para sair. '
 --- !u!222 &1339081262
 CanvasRenderer:
   m_ObjectHideFlags: 0

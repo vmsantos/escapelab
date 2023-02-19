@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class AnswerOption
 {
@@ -103,7 +105,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            // Fim do quiz
+            SceneManager.LoadScene("Lab");
         }
     }
 
