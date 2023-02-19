@@ -1,0 +1,14 @@
+{
+"companyName": "CERTH/ITI",
+"productName": "Chemistry Lab",
+"dataUrl": "build.data.unityweb",
+"asmCodeUrl": "build.asm.code.unityweb",
+"asmMemoryUrl": "build.asm.memory.unityweb",
+"asmFrameworkUrl": "build.asm.framework.unityweb",
+"TOTAL_MEMORY": 1073741824,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "build.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
