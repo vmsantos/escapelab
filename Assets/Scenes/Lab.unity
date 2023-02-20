@@ -16115,7 +16115,7 @@ Prefab:
     - target: {fileID: 82377210902597404, guid: d96e2996417f73d43b58f80956bd1927,
         type: 2}
       propertyPath: m_Volume
-      value: 0.011
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 82480303932076466, guid: d96e2996417f73d43b58f80956bd1927, type: 2}
@@ -37063,7 +37063,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a669b6e0a7864224a9cbb87e1d25131a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -40246,7 +40246,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1428606331
+  randomSeed: 1560045402
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -49118,7 +49118,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -829624218
+  randomSeed: 1990704896
   InitialModule:
     serializedVersion: 3
     enabled: 1
