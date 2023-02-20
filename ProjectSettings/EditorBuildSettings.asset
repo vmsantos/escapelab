@@ -59,3 +59,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dica4.unity
     guid: 5961655f7ce4cff4a852f642bf8bc3e3
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 93057a29b0d0ec44898f0b54b8476903
