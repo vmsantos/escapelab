@@ -1,6 +1,6 @@
 {
-"companyName": "CERTH/ITI",
-"productName": "Chemistry Lab",
+"companyName": "UnB",
+"productName": "Escape Lab",
 "dataUrl": "docs.data.unityweb",
 "asmCodeUrl": "docs.asm.code.unityweb",
 "asmMemoryUrl": "docs.asm.memory.unityweb",
@@ -8,7 +8,6 @@
 "TOTAL_MEMORY": 1073741824,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
-"backgroundUrl": "docs.jpg",
 "splashScreenStyle": "Dark",
-"backgroundColor": "#FFFFFF"
+"backgroundColor": "#231F20"
 }
